@@ -1,6 +1,6 @@
-# Bundle Template
+# Hazelcast Bundle Template
 
-This is a bundle template that you can use to create a new bundle. Follow the steps below when creating a new bundle.
+This is a bundle template for creating a new Hazelcast bundle. Follow the steps below when creating a new bundle.
 
 ## Build Files
 
