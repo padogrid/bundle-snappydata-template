@@ -4,7 +4,7 @@ This is a bundle template for creating a new Hazelcast bundle. Follow the steps 
 
 ## Build Files
 
-There are two build files: `pom.xml` and `assembly-descriptor.xml`. Both files contain instructions annotated with **@template**. Search **@template** and Add your bundle specifics there.
+There are two build files: `pom.xml` and `assembly-descriptor.xml`. Both files contain instructions annotated with **@template**. Search **@template** and add your bundle specifics there.
 
 1. Update `pom.xml` with your bundle specifics. 
 
