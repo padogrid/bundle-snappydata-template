@@ -1,6 +1,12 @@
 # Hazelcast Bundle Template
 
-This is a bundle template for creating a new Hazelcast bundle. Follow the steps below when creating a new bundle.
+This bundle serves as a template for creating a new Hazelcast bundle. Follow the steps below when creating a new bundle.
+
+## Installing Bundle
+
+```bash
+install_bundle -download bundle-hazelcast-template
+```
 
 ## 1. Create Repo
 

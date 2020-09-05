@@ -1,1 +1,1 @@
-[Enter your header description here. Try to limit to two lines. This will be shown when you execute `show_bundle -header`.]
+This bundle serves as a template for creating a new Hazelcast bundle. Run `show_bundle hazelcast-template` to see instructions.
