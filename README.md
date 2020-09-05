@@ -27,11 +27,12 @@ switch_workspace <bundle-repo-name>
 
 Update the files came with the template repo.
 
-- pom.xml
-- assembly-descriptor.xml
-- .gitignore
-- README_HEADER.md
-- README.md (this file)
+- `pom.xml`
+- `assembly-descriptor.xml`
+- `.gitignore`
+- `README_HEADER.md`
+- `README.md` (this file)
+- `README.TEMPLATE` (Remove it when done. See instructions below.)
 
 ### 3.1. pom.xml
 
