@@ -62,11 +62,11 @@ pods
 ...
 ```
 
-# 3.4. README_HEADER.md
+## 3.4. README_HEADER.md
 
 Enter a short description of your bundle in the `README_HEADER.md` file. This file content is displayed when you execute the `show_bundle -header` command.
 
-# 3.5 READEME.md (this file)
+## 3.5. READEME.md (this file)
 
 Replace `README.md` with the README_TEMPLATE.md file. Make sure to remove `README_TEMPLATE.md` after you have replaced `READEME.md` with it.
 
