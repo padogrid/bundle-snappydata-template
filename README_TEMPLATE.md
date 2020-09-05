@@ -1,16 +1,17 @@
-# Bundle Template
+# Hazelcast Bundle Template
 
-[Enter your header description here. Try to limit to two (2) lines.]
+[Enter your header description here. Try to limit to two (2) lines. Delete this line.]
 
 ## Installing Bundle
 
+[Enter your bundle name below and delete this line.]
 ```bash
-install_bundle -download bundle-template
+install_bundle -download bundle-hazelcast-...
 ```
 
 ## Use Case
 
-[Enter detailed use case descriptions including one or more diagrams.]
+[Enter detailed use case descriptions including one or more diagrams. Delete this line.]
 
 ![Bundle Template Diagram](/images/bundle-template.jpg)
 
@@ -21,7 +22,7 @@ install_bundle -download bundle-template
 
 ## Directory Tree View
 
-[Enter a directory tree view. Try to keep it short by showing only core nested items.]
+[Enter a directory tree view. Try to keep it short by showing only core nested items. Delete this line.]
 
 ```console
 bundle-template/
@@ -41,12 +42,18 @@ bundle-template/
         └── hazelcast-client.xml
 ```
 
-## 1. Enumerate instruction steps if possible
+## 1. [Enter instruction step. Enumerate steps if possible.]
 
-## 2. Enumerate instruction steps if possible
+## 2. [Enter instruction step. Enumerate steps if possible.]
 
-## 3. Enumerate instruction steps if possible
+## 3. [Enter instruction step. Enumerate steps if possible.]
 
-## 4. Teardown
+## Teardown
 
-[Always include teardown steps]
+[Always include teardown steps. Delete this line.]
+
+## References
+
+1. [Enter the name of a reference article, book, web link, etc.]
+2. [Enter the name of a reference article, book, web link, etc.]
+

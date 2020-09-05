@@ -2,29 +2,38 @@
 
 This is a bundle template for creating a new Hazelcast bundle. Follow the steps below when creating a new bundle.
 
-## Build Files
+## 1. Create Repo
 
-There are two build files: `pom.xml` and `assembly-descriptor.xml`. Both files contain instructions annotated with **@template**. Search **@template** and add your bundle specifics there.
+Select **Use this template** button in the upper right coner to create your repo. Make sure to follow the bundle naming conventions described in the following link.
 
-1. Update `pom.xml` with your bundle specifics. 
-
-2. Update `assembly-descriptor.xml` with your bundle specifics. This file creates a tarball that will be deployed when the user executes the `install_bundle -download` command.
-
-## Build Environment
-
-The best way to develop a bundle is to clone it in the form of a workspace so that you can develop, test, and check in from one place. The following command does just that. It clones the specified bundle in the current RWE and places all the required workspace files in the cloned directory which serves as a workspace.
+## 2. Checkout Repo in Workspace
 
 ```bash
-# Install bundle as a workspace
-install_bundle -download -workspace <bundle-name>
-
-# Switch into the workspace using the bundle name
-switch_workspace <bundle-name>
+install_bundle -download -workspace <bundle-repo-name>
+switch_workspace <bundle-repo-name>
 ```
 
-Once you are in the workspace, you can make any changes and test the bundle. When you are ready to check in, you can simply commit the changes using the `git commit` command. For new files, you will need to select only the ones that you want to check in using the `git status` and `git diff` commands. For those files that you do not want to check in, you can list them in the `.gitignore` file so that they do not get checked in accidentally. The `.gitignore` file already contains a list of files that are part of workspace which should not be checked in. 
+## 3. Update Files
 
-Edit the `.gitignore` and add new exludes or remove existing excludes.
+Update the files came with the template repo.
+
+- pom.xml
+- assembly-descriptor.xml
+- .gitignore
+- README_HEADER.md
+- README.md (this file)
+
+### 3.1. pom.xml
+
+The `pom.xml` file contains instructions annocated with **@template**. Search **@template** and add your bundle specifics there.
+
+### 3.2 assembly-descriptor.xml
+
+This file creates a tarball that will be deployed when the user executes the `install_bundle -download` command. Search **@template** and add your bundle specfics there.
+
+### 3.3 .gitignore
+
+The `.gitignore` file lists workspace specific files to be excluded from getting checked in. Edit `.gitignore` and add new exludes or remove existing excludes.
 
 ```bash
 vi .gitignore
@@ -42,3 +51,23 @@ k8s
 pods
 ...
 ```
+
+# 3.4. README_HEADER.md
+
+Enter a short description of your bundle in the `README_HEADER.md` file. This file content is displayed when you execute the `show_bundle -header` command.
+
+# 3.5 READEME.md (this file)
+
+Replace `README.md` with the README_TEMPLATE.md file. Make sure to remove `README_TEMPLATE.md` after you have replaced `READEME.md` with it.
+
+```bash
+cp README_TEMPLATE.md README.md
+git rm README_TEMPLATE.md
+```
+
+Update the `READEME.md` file by following the instructions in that file.
+
+## 4. Develop and Test Bundle
+
+You can freely make changes and test the bundle in the workspace. When you are ready to check in, you simply commit the changes using the `git commit` command. For new files, you will need to select only the ones that you want to check in using the `git status -u` and `git diff` commands. For those files that you do not want to check in, you can list them in the `.gitignore` file so that they do not get checked in accidentally.
+

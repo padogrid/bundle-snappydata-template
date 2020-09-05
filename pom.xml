@@ -11,7 +11,7 @@
 	<packaging>pom</packaging>
         <name>${project.artifactId}</name>
 	<version>1.0.0</version>
-	<!-- @templateL Enter your bundle desction -->
+	<!-- @template: Enter your bundle desction -->
 	<description>Bundle template</description>
 
 	<properties>
