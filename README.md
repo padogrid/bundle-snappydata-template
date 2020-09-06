@@ -1,11 +1,11 @@
-# Geode Bundle Template
+# SnappyData Bundle Template
 
-This bundle serves as a template for creating a new Geode onlne bundle.
+This bundle serves as a template for creating a new SnappyData onlne bundle.
 
 ## Installing Bundle
 
 ```bash
-install_bundle -download bundle-geode-template
+install_bundle -download bundle-snappydata-template
 ```
 
 ## Use Case

@@ -1,4 +1,4 @@
-# Geode Bundle Template
+# SnappyData Bundle Template
 
 [Enter your header description here. Try to limit to two (2) lines. Delete this line.]
 
@@ -6,7 +6,7 @@
 
 [Enter your bundle name below and delete this line.]
 ```bash
-install_bundle -download bundle-geode-...
+install_bundle -download bundle-snappydata-...
 ```
 
 ## Use Case
@@ -30,17 +30,12 @@ bundle-template/
 │   ├── build_app
 │   ├── cleanup
 │   ├── setenv.sh
-│   ├── start_geode
+│   ├── start_snappydata
 │   ├── start_padogrid
-│   ├── stop_geode
+│   ├── stop_snappydata
 │   └── stop_padogrid
-├── etc
-│   ├── cache.xml
-│   └── gemfire.properties
-└── padogrid
-    └── etc
-        ├── client-cache.xml
-        └── client-gemfire.properties
+└── etc
+    └── gemfirexd.properties
 ```
 
 ## 1. [Enter instruction step. Enumerate steps if possible.]

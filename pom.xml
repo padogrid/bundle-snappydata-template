@@ -5,9 +5,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.apache.geode.addon</groupId>
+	<groupId>org.snappydata.addon</groupId>
         <!-- @template: Enter your bundle name here -->
-        <artifactId>bundle-geode-template</artifactId>
+        <artifactId>bundle-snappydata-template</artifactId>
 	<packaging>pom</packaging>
 	<name>${project.artifactId}</name>
 	<version>1.0.0</version>
@@ -18,15 +18,20 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
-		<geode.version>1.11.0</geode.version>
+		<snappydata.version>1.2.0</snappydata.version>
 		<skipTests>true</skipTests>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.geode</groupId>
-			<artifactId>geode-core</artifactId>
-			<version>${geode.version}</version>
+			<groupId>io.snappydata</groupId>
+			<artifactId>snappydata-cluster_2.11</artifactId>
+			<version>${snappydata.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.snappydata</groupId>
+			<artifactId>snappydata-store-core</artifactId>
+			<version>1.6.5</version>
 		</dependency>
 	</dependencies>
 
