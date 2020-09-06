@@ -1,4 +1,4 @@
-# Hazelcast Bundle Template
+# Geode Bundle Template
 
 [Enter your header description here. Try to limit to two (2) lines. Delete this line.]
 
@@ -6,7 +6,7 @@
 
 [Enter your bundle name below and delete this line.]
 ```bash
-install_bundle -download bundle-hazelcast-...
+install_bundle -download bundle-geode-...
 ```
 
 ## Use Case
@@ -30,16 +30,17 @@ bundle-template/
 │   ├── build_app
 │   ├── cleanup
 │   ├── setenv.sh
-│   ├── start_hazelcast
+│   ├── start_geode
 │   ├── start_padogrid
-│   ├── stop_hazelcast
+│   ├── stop_geode
 │   └── stop_padogrid
 ├── etc
-│   ├── hazelcast.xml
-│   └── hazelcast-client.xml
+│   ├── cache.xml
+│   └── gemfire.properties
 └── padogrid
     └── etc
-        └── hazelcast-client.xml
+        ├── client-cache.xml
+        └── client-gemfire.properties
 ```
 
 ## 1. [Enter instruction step. Enumerate steps if possible.]

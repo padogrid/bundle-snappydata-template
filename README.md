@@ -1,11 +1,11 @@
-# Hazelcast Bundle Template
+# Geode Bundle Template
 
-This bundle serves as a template for creating a new Hazelcast onlne bundle.
+This bundle serves as a template for creating a new Geode onlne bundle.
 
 ## Installing Bundle
 
 ```bash
-install_bundle -download bundle-hazelcast-template
+install_bundle -download bundle-geode-template
 ```
 
 ## Use Case
