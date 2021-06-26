@@ -72,7 +72,7 @@ pods
 
 ## 3.4. README_HEADER.md
 
-Enter a short description of your bundle in the `README_HEADER.md` file. This file content is displayed when you execute the `show_bundle -header` command.
+Enter a short description of your bundle in the `README_HEADER.md` file. This file content is displayed when you execute the `show_bundle -header` command. **Note that this file is optional.** If it does not exist, then the first paragraph of the `README.md` file is used instead.
 
 ## 3.5. READEME.md (this file)
 
