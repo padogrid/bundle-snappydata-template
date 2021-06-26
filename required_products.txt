@@ -8,7 +8,7 @@
 # 1.2.x, then 1.2. If the bundle applies to multiple specific versions, then list them
 # comma-separated. For example, the following applies to SnappyData 1.1.1 and 1.2.x
 #
-# geode=1.1.1,1.2
+# snappydata=1.1.1,1.2
 #
 
 snappydata=1.2
