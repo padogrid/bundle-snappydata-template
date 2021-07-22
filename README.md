@@ -87,7 +87,7 @@ Update the `READEME.md` file by following the instructions in that file.
 
 ## 3.6. required_products.txt
 
-The `required_products.txt` file must include the a list of required products and their versions. Its format is described in the following link.
+The `required_products.txt` file must include a list of required products and their versions. Its format is described in the following link.
 
 [Relaxed Bundle Naming Conventions](https://github.com/padogrid/padogrid/wiki/User-Bundle-Repos#relaxed-conventions)
 
