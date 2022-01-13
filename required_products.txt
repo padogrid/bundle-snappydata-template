@@ -10,14 +10,19 @@
 #
 # snappydata=1.1.1,1.2
 #
+# If the bunndle does not require a product, then set none=1.
+#
 
 snappydata=1.2
+#coherence=
+#gemfire=
+#geode=
+#hadoop=
 #hazelcast=
 #hazelcast-enterprise=
-#geode=
-#gemfire=
 #jet=
 #jet-enterprise=
-#spark=
-#coherence=
+#kafka=
+#none=1
 #pado=
+#spark=
