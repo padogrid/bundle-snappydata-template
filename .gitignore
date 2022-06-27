@@ -9,6 +9,17 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 
+# Eclipse
+.classpath
+.project
+.settings
+
+# VS Code
+workspace.code-workspace
+
+# macOS
+.DS_Store
+
 # vi
 *.swp
 
@@ -19,6 +30,7 @@ buildNumber.properties
 bundles
 lib
 plugins
+.ipynb_checkpoints
 
 # PadoGrid workspace directories
 apps
@@ -34,5 +46,11 @@ archive
 log
 lib
 desktop
-setenv.sh0
+build
+stats
+run
+results
+*.drawio.bkp
+*.sh0
+pom.xml0
 build

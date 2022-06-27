@@ -5,6 +5,7 @@
 ## Installing Bundle
 
 [Enter your bundle name below and delete this line.]
+
 ```bash
 install_bundle -download bundle-snappydata-...
 ```
@@ -20,9 +21,16 @@ install_bundle -download bundle-snappydata-...
 - name1 version
 - name2 version
 
+## Required Hardware
+
+- Memory
+- CPUs
+- Number of Machines
+- Etc.
+
 ## Directory Tree View
 
-[Enter a directory tree view. Try to keep it short by showing only core nested items. Delete this line.]
+[Enter a directory tree view. Try to keep it short by showing only the core nested items. Delete this line.]
 
 ```console
 bundle-template/

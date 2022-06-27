@@ -10,7 +10,8 @@
 #
 # snappydata=1.1.1,1.2
 #
-# If the bunndle does not require a product, then set none=1.
+# To deemphasize products, i.e., product not required, requires multiple products, etc.,
+# then set none=1.
 #
 
 snappydata=1.2
@@ -25,4 +26,5 @@ snappydata=1.2
 #kafka=
 #none=1
 #pado=
+#redis=
 #spark=
