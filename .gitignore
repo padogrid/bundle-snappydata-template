@@ -14,9 +14,6 @@ buildNumber.properties
 .project
 .settings
 
-# VS Code
-workspace.code-workspace
-
 # macOS
 .DS_Store
 
@@ -31,12 +28,14 @@ workspace.code-workspace
 bundles
 lib
 plugins
+workspace.code-workspace
 .ipynb_checkpoints
 
 # PadoGrid workspace directories
 apps
 clusters
 docker
+groups
 k8s
 pods
 .workspace
