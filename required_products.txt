@@ -24,6 +24,7 @@ snappydata=1.2
 #jet=
 #jet-enterprise=
 #kafka=
+#mosquitto=
 #none=1
 #pado=
 #redis=
